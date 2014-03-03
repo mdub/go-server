@@ -1,4 +1,4 @@
-go-on-docker
-============
+go-server
+=========
 
-Docker container that hosts the ThoughtWorks Go server and agent.
+Docker container that hosts the ThoughtWorks Go server.
