@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-cat >  /etc/default/go-server <<HERE
-GO_SERVER_PORT=8153
+cat > /etc/default/go-server <<HERE
+GO_SERVER_PORT=80
 export GO_SERVER_PORT
-GO_SERVER_SSL_PORT=8154
+GO_SERVER_SSL_PORT=443
 export GO_SERVER_SSL_PORT
 SERVER_WORK_DIR=/var/lib/go-server
 export SERVER_WORK_DIR

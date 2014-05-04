@@ -9,8 +9,8 @@ RUN curl -o /tmp/go-server.deb http://download01.thoughtworks.com/go/13.4.1/ga/g
 RUN dpkg -i /tmp/go-server.deb
 
 # Expose ports for HTTP and HTTPS
-EXPOSE 8153
-EXPOSE 8154
+EXPOSE 80
+EXPOSE 443
 
 ADD start.sh /usr/local/bin/start
 
