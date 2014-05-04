@@ -1,5 +1,5 @@
-FROM ashlineldridge/java-on-ubuntu
-MAINTAINER Ashlin Eldridge
+FROM dockerfile/java
+MAINTAINER Mike Williams <mdub@dogbiscuit.org>
 
 # Install unzip (needed by Go)
 RUN apt-get install -y unzip
